@@ -1,0 +1,1 @@
+package com.sean.designpatterns.command;public class Run {		public static void main(String[] args) {		// 创建命令对象		Receiver receiver = new Receiver();		Command command = new ConcreteCommand(receiver);				// 创建命令调用对象		Invoker invoker = new Invoker();		invoker.setCommand(command);				// 执行命令		invoker.runCommand();	}}

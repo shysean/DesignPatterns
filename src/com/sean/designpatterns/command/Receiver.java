@@ -1,0 +1,1 @@
+package com.sean.designpatterns.command;public class Receiver {	/**	 * 某功能	 */	public void action()	{		System.out.println("Receiver action() is called.");	}}
