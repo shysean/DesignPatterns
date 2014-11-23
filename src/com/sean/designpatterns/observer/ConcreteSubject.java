@@ -1,0 +1,1 @@
+package com.sean.designpatterns.observer;public class ConcreteSubject extends Subject{	private String state;		public void setState(String state)	{		this.state = state;		this.notifyObservers();	}		public String getState()	{		return this.state;	}		}

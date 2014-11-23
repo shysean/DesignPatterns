@@ -1,0 +1,1 @@
+package com.sean.designpatterns.observer;public class ConcreteOberver implements Oberver{		private String name;		public void setName(String name)	{		this.name = name;	}		@Override	public void update(Subject subject) {		ConcreteSubject s = (ConcreteSubject)subject;		System.out.println(this.name + ":State has changed,state is " + s.getState());	}}

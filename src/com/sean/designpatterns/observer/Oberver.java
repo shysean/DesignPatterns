@@ -1,0 +1,1 @@
+package com.sean.designpatterns.observer;public interface Oberver {		void update(Subject subject);}
