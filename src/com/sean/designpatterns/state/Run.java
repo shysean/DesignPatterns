@@ -1,0 +1,1 @@
+package com.sean.designpatterns.state;public class Run {	public static void main(String[] args) {		Monster monster = new Monster();		monster.observer();		State crazyState = new StateCrazy(monster);		monster.changeToState(crazyState);		monster.observer();	}}

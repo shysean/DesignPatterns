@@ -1,0 +1,1 @@
+package com.sean.designpatterns.state;/** * @author shihongyang * */public interface State {		void onEnterState();	void observe();}
